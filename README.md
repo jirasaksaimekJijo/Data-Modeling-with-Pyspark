@@ -63,6 +63,11 @@ example read file parquet
 df = spark.read.parquet("path/to/your/data.parquet", inferSchema=True)
 ```
 
+example write to table in databricks
+
+```bash
+stations.write.format("delta").saveAsTable("default.stations")
+```
 
 example write to table
 ```bash
