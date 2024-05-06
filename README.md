@@ -46,6 +46,9 @@ http://localhost:8888.
 ```
 You'll see the Jupyter Notebook interface.  
 
+- server name run pyspark
+![image](https://github.com/jirasaksaimekJijo/Week4-Data-Warehouse-with-Pyspark/assets/116647943/dfedfdce-9660-43fc-9449-0c1f7483b6fe)
+
 
 ## 2.pyspark example 
 2.1 start pyspark
