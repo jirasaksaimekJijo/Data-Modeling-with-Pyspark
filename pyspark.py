@@ -9,7 +9,7 @@ df = spark.read.csv("username.csv", header=True, inferSchema=True)
 df = spark.read.json("zipcodes.json", inferSchema=True)
 
 #read find parquet
-df = spark.read.parquet("MT cars.parquet", inferSchema=True)
+df = spark.read.parquet("MT cars.parquet")
 
 from pyspark.sql.functions import col
 
